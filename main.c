@@ -182,7 +182,7 @@ void gradient(double gradf[],double x[]){
     //This function is just the gradient of the Rosenbrock function
     
     gradf[0] = -4*a*x[0]*x[1]+4*a*pow(x[0],3)+2*x[0]-2;
-    gradf[1] = 2*a*x[1]-2*x[0]*x[0];
+    gradf[1] = 2*a*x[1]-2*a*x[0]*x[0];
     
 }
 
