@@ -22,7 +22,7 @@ title('Surface Plot of the Rosenbrock Function','interpreter','latex','fontsize'
 rosen = @(x1,x2) a*(x2 - x1^2)^2+(1-x1)^2;
 
 %Gradient of the Rosenbrock Function
-gradf = @(x1,x2) [-4*a*x1*x2+4*a*x1^3+2*x1-2; 2*a*x2-2*x1^2];
+gradf = @(x1,x2) [-4*a*x1*x2+4*a*x1^3+2*x1-2; 2*a*x2-2*a*x1^2];
 % gradf(2,2)
 
 %Hessian of the Rosenbrock function
